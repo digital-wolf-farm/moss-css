@@ -1,31 +1,31 @@
 {
-  "name": "moss-css",
-  "version": "0.0.1",
-  "description": "CSS library",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "sass ./src/style.scss ./dist/moss.css --style=expanded --embed-source-map",
-    "dev:watch": "sass ./src/style.scss ./dist/moss.css --watch --style=expanded --embed-source-map",
-    "build": "sass ./src/style.scss ./dist/moss.min.css --style=compressed --no-source-map"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/digital-wolf-farm/moss-css.git"
-  },
-  "keywords": [
-    "Moss",
-    "CSS",
-    "SCSS",
-    "library"
-  ],
-  "author": "digital-wolf-farm",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/digital-wolf-farm/moss-css/issues"
-  },
-  "homepage": "https://github.com/digital-wolf-farm/moss-css#readme",
-  "devDependencies": {
-    "sass": "^1.44.0"
-  }
+    "name": "moss-css",
+    "version": "0.0.1",
+    "description": "CSS library",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "sass ./src/style.scss ./dist/moss.css --style=expanded",
+        "dev:watch": "sass ./src/style.scss ./dist/moss.css --watch --style=expanded",
+        "build": "sass ./src/style.scss ./dist/moss.min.css --style=compressed --no-source-map"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/digital-wolf-farm/moss-css.git"
+    },
+    "keywords": [
+        "Moss",
+        "CSS",
+        "SCSS",
+        "library"
+    ],
+    "author": "digital-wolf-farm",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/digital-wolf-farm/moss-css/issues"
+    },
+    "homepage": "https://github.com/digital-wolf-farm/moss-css#readme",
+    "devDependencies": {
+        "sass": "^1.44.0"
+    }
 }
