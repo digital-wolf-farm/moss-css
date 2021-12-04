@@ -4,10 +4,10 @@
     "description": "CSS library",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "sass ./src/style.scss ./dist/moss.css --style=expanded",
         "dev:watch": "sass ./src/style.scss ./dist/moss.css --watch --style=expanded",
-        "build": "sass ./src/style.scss ./dist/moss.min.css --style=compressed --no-source-map"
+        "build": "sass ./src/style.scss ./dist/moss.min.css --style=compressed --no-source-map",
+        "lint": "stylelint ./src/**/*.scss"
     },
     "repository": {
         "type": "git",
@@ -26,6 +26,8 @@
     },
     "homepage": "https://github.com/digital-wolf-farm/moss-css#readme",
     "devDependencies": {
-        "sass": "^1.44.0"
+        "sass": "^1.44.0",
+        "stylelint": "^14.1.0",
+        "stylelint-config-standard-scss": "^3.0.0"
     }
 }
